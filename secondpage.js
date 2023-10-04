@@ -41,7 +41,7 @@ function getdataonui(data){
         </div>
         <div class="info-div">
             <p>Organisation: <span>${data.org}</span></p>
-            <p>Hostname: <span>${hostname}</span></p>
+            <p>Hostname: <span>${data.asn}</span></p>
         </div> `;
         const mapIframe = document.getElementById('location-map');
         mapIframe.src = `https://maps.google.com/maps?q=${lat},${long}&z=15&output=embed`;
